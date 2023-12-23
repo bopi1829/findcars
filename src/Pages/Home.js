@@ -1,7 +1,9 @@
 import React from 'react'
+import { FormControl } from '@mui/material'
+import SearchBar from '../components/forms/SearchBar'
 
 export default function Home() {
-  return <div className="App">
-        <header className="App-header" />
-    </div>
+    return <FormControl>
+        <SearchBar />
+    </FormControl>
 }

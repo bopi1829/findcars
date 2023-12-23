@@ -1,7 +1,12 @@
 import React from 'react'
+import Input from './Input'
 
-export default function SearchBar({placeholder, onChange}) {
+export default function SearchBar() {
     return <div>
-            SearchBar
+            <Input 
+                value=""
+                placeholder="Rechercher..."
+                onChange={onchange}
+            />
         </div>
 }
